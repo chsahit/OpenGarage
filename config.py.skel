@@ -1,0 +1,7 @@
+username = "" #sendhub username
+api_key = "" #sendhub api key
+contacts = [""] #message recipients
+message_pushed = "Garage Opened" #feel free to change these
+message_released = "Garage Closed"
+
+
