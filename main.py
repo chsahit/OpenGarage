@@ -20,8 +20,7 @@ def main():
 				payload["text"] = config.message_pushed
 			else :
 				payload["text"] = config.message_released
-			print url
-			requests.post(url,data=simplejson.dumps(payload),headers=headers)
+			print requests.post(url,data=simplejson.dumps(payload),headers=headers)
 		last_state = curr_state
 
 if __name__ == "__main__":
